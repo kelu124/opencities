@@ -22,7 +22,7 @@ from models import *
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Coucou World!"
 
 @app.route("/get/<id_>")
 def get_by_id(id_):
