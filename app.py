@@ -24,10 +24,10 @@ from models import *
 def hello():
     return "Coucou World!"
 
-@app.route("/get/<id_>")
-def get_by_id(id_):
+@app.route("/get/<depcom_>")
+def get_by_id(depcom_):
     try:
-        population=Population.query.filter_by(id=id_).first()
+        population=PopCSV.query.filter_by(depcom=depcom_).first()
         return jsonify(population.serialize())
     except Exception as e:
 	    return(str(e))
