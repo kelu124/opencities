@@ -1,4 +1,4 @@
-# https://medium.com/@dushan14/create-a-web-application-with-python-flask-postgresql-and-deploy-on-heroku-243d548335cc
+## https://medium.com/@dushan14/create-a-web-application-with-python-flask-postgresql-and-deploy-on-heroku-243d548335cc
 # https://github.com/dushan14/books-store
 # PostGre
 # user: kelu
