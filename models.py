@@ -29,7 +29,7 @@ class Population(db.Model):
 class PopCSV(db.Model):
     __tablename__ = 'table_cps'
 
-    depcom = db.Column(db.String())
+    depcom = db.Column(db.String(), primary_key=True) 
     com = db.Column(db.String())
     pop = db.Column(db.Integer())
 
